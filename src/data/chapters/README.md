@@ -32,9 +32,9 @@ Each chapter is stored in a separate TypeScript file following the naming conven
 ### Part Four – Scaling, Safety, and Discovery
 - [x] `chapter-15-inter-agent-communication.ts` - Inter-Agent Communication (A2A) (Complete - 29 min read)
 - [x] `chapter-16-resource-aware-optimization.ts` - Resource-Aware Optimization (Complete - 33 min read)
-- [ ] `chapter-17-reasoning-techniques.ts` - Reasoning Techniques
-- [ ] `chapter-18-guardrails-safety.ts` - Guardrails / Safety Patterns
-- [ ] `chapter-19-evaluation-monitoring.ts` - Evaluation and Monitoring
+- [x] `chapter-17-reasoning-techniques.ts` - Reasoning Techniques (Complete - 31 min read)
+- [x] `chapter-18-guardrails-safety-patterns.ts` - Guardrails / Safety Patterns (Complete - 28 min read)
+- [x] `chapter-19-evaluation-monitoring.ts` - Evaluation and Monitoring (Complete - 32 min read)
 - [ ] `chapter-20-prioritization.ts` - Prioritization
 - [ ] `chapter-21-exploration-discovery.ts` - Exploration and Discovery
 
