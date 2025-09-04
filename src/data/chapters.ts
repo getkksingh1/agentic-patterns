@@ -19,7 +19,8 @@ import {
   resourceAwareOptimizationChapter,
   reasoningTechniquesChapter,
   guardrailsSafetyPatternsChapter,
-  evaluationMonitoringChapter
+  evaluationMonitoringChapter,
+  prioritizationChapter
 } from './chapters/index'
 
 const chapters: Chapter[] = [
@@ -41,7 +42,8 @@ const chapters: Chapter[] = [
   resourceAwareOptimizationChapter,
   reasoningTechniquesChapter,
   guardrailsSafetyPatternsChapter,
-  evaluationMonitoringChapter
+  evaluationMonitoringChapter,
+  prioritizationChapter
   // Add more chapters as needed...
 ]
 

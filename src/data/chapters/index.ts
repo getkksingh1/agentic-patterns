@@ -18,6 +18,7 @@ import { resourceAwareOptimizationChapter } from './chapter-16-resource-aware-op
 import { reasoningTechniquesChapter } from './chapter-17-reasoning-techniques'
 import { guardrailsSafetyPatternsChapter } from './chapter-18-guardrails-safety-patterns'
 import { evaluationMonitoringChapter } from './chapter-19-evaluation-monitoring'
+import { prioritizationChapter } from './chapter-20-prioritization'
 
 // Import additional chapters (to be implemented)
 // ... etc for chapters 8-21
@@ -42,5 +43,6 @@ export {
   reasoningTechniquesChapter,
   guardrailsSafetyPatternsChapter,
   evaluationMonitoringChapter,
+  prioritizationChapter,
   // Export other chapters as they're implemented
 }

@@ -35,7 +35,7 @@ Each chapter is stored in a separate TypeScript file following the naming conven
 - [x] `chapter-17-reasoning-techniques.ts` - Reasoning Techniques (Complete - 31 min read)
 - [x] `chapter-18-guardrails-safety-patterns.ts` - Guardrails / Safety Patterns (Complete - 28 min read)
 - [x] `chapter-19-evaluation-monitoring.ts` - Evaluation and Monitoring (Complete - 32 min read)
-- [ ] `chapter-20-prioritization.ts` - Prioritization
+- [x] `chapter-20-prioritization.ts` - Prioritization (Complete - 29 min read)
 - [ ] `chapter-21-exploration-discovery.ts` - Exploration and Discovery
 
 ## Adding New Chapters
