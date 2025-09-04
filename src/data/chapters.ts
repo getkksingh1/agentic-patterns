@@ -20,7 +20,8 @@ import {
   reasoningTechniquesChapter,
   guardrailsSafetyPatternsChapter,
   evaluationMonitoringChapter,
-  prioritizationChapter
+  prioritizationChapter,
+  patternDiscoveryInnovationChapter
 } from './chapters/index'
 
 const chapters: Chapter[] = [
@@ -43,8 +44,9 @@ const chapters: Chapter[] = [
   reasoningTechniquesChapter,
   guardrailsSafetyPatternsChapter,
   evaluationMonitoringChapter,
-  prioritizationChapter
-  // Add more chapters as needed...
+  prioritizationChapter,
+  patternDiscoveryInnovationChapter
+  // All 21 chapters complete! 🎉
 ]
 
 export const getChapterBySlug = (slug: string): Chapter | undefined => {

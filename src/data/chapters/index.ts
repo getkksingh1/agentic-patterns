@@ -19,8 +19,9 @@ import { reasoningTechniquesChapter } from './chapter-17-reasoning-techniques'
 import { guardrailsSafetyPatternsChapter } from './chapter-18-guardrails-safety-patterns'
 import { evaluationMonitoringChapter } from './chapter-19-evaluation-monitoring'
 import { prioritizationChapter } from './chapter-20-prioritization'
+import { patternDiscoveryInnovationChapter } from './chapter-21-pattern-discovery-innovation'
 
-// Import additional chapters (to be implemented)
+// All 21 chapters now complete! 🎉
 // ... etc for chapters 8-21
 
 export {
@@ -44,5 +45,6 @@ export {
   guardrailsSafetyPatternsChapter,
   evaluationMonitoringChapter,
   prioritizationChapter,
-  // Export other chapters as they're implemented
+  patternDiscoveryInnovationChapter,
+  // All 21 chapters now complete!
 }

@@ -47,3 +47,12 @@ export interface ChapterMetadata {
   title: string
   part: string
 }
+
+export interface Appendix {
+  id: string
+  title: string
+  subtitle?: string
+  description: string
+  readingTime: string
+  content: string
+}

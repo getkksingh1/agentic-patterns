@@ -86,12 +86,12 @@ const parts: Part[] = [
 ]
 
 const appendices: AppendixItem[] = [
-  { id: 'advanced-prompting', title: 'Advanced Prompting Techniques' },
-  { id: 'gui-to-real-world', title: 'AI Agentic: From GUI to Real World Environment' },
-  { id: 'agentic-frameworks', title: 'Quick Overview of Agentic Frameworks' },
-  { id: 'agentspace', title: 'Building an Agent with AgentSpace', onlineOnly: true },
-  { id: 'cli-agents', title: 'AI Agents on the CLI', onlineOnly: true },
-  { id: 'reasoning-engines', title: 'Under the Hood: An Inside Look at the Agents\' Reasoning Engines' },
+  { id: 'advanced-prompting-techniques', title: 'Advanced Prompting Techniques' },
+  { id: 'ai-agentic-interactions', title: 'AI Agentic: From GUI to Real World Environment' },
+  { id: 'agentic-frameworks-overview', title: 'Quick Overview of Agentic Frameworks' },
+  { id: 'building-agent-agentspace', title: 'Building an Agent with AgentSpace', onlineOnly: true },
+  { id: 'ai-agents-cli', title: 'AI Agents on the CLI', onlineOnly: true },
+  { id: 'under-the-hood', title: 'Under the Hood: An Inside Look at the Agents\' Reasoning Engines' },
   { id: 'coding-agents', title: 'Coding Agents' },
 ]
 
