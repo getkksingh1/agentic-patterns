@@ -17,6 +17,7 @@ import { interAgentCommunicationChapter } from './chapter-15-inter-agent-communi
 import { resourceAwareOptimizationChapter } from './chapter-16-resource-aware-optimization'
 import { reasoningTechniquesChapter } from './chapter-17-reasoning-techniques'
 import { guardrailsSafetyPatternsChapter } from './chapter-18-guardrails-safety-patterns'
+import { evaluationMonitoringChapter } from './chapter-19-evaluation-monitoring'
 
 // Import additional chapters (to be implemented)
 // ... etc for chapters 8-21
@@ -40,5 +41,6 @@ export {
   resourceAwareOptimizationChapter,
   reasoningTechniquesChapter,
   guardrailsSafetyPatternsChapter,
+  evaluationMonitoringChapter,
   // Export other chapters as they're implemented
 }
