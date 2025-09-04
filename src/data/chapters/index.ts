@@ -16,6 +16,7 @@ import { knowledgeRetrievalChapter } from './chapter-14-knowledge-retrieval'
 import { interAgentCommunicationChapter } from './chapter-15-inter-agent-communication'
 import { resourceAwareOptimizationChapter } from './chapter-16-resource-aware-optimization'
 import { reasoningTechniquesChapter } from './chapter-17-reasoning-techniques'
+import { guardrailsSafetyPatternsChapter } from './chapter-18-guardrails-safety-patterns'
 
 // Import additional chapters (to be implemented)
 // ... etc for chapters 8-21
@@ -38,5 +39,6 @@ export {
   interAgentCommunicationChapter,
   resourceAwareOptimizationChapter,
   reasoningTechniquesChapter,
+  guardrailsSafetyPatternsChapter,
   // Export other chapters as they're implemented
 }

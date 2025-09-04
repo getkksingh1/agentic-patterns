@@ -17,7 +17,8 @@ import {
   knowledgeRetrievalChapter,
   interAgentCommunicationChapter,
   resourceAwareOptimizationChapter,
-  reasoningTechniquesChapter
+  reasoningTechniquesChapter,
+  guardrailsSafetyPatternsChapter
 } from './chapters/index'
 
 const chapters: Chapter[] = [
@@ -37,7 +38,8 @@ const chapters: Chapter[] = [
   knowledgeRetrievalChapter,
   interAgentCommunicationChapter,
   resourceAwareOptimizationChapter,
-  reasoningTechniquesChapter
+  reasoningTechniquesChapter,
+  guardrailsSafetyPatternsChapter
   // Add more chapters as needed...
 ]
 
