@@ -187,10 +187,10 @@ export default function TableOfContents() {
 
       <div className="container max-w-6xl">
         <div className="text-center mb-12">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-4">
+          <h1 className="text-3xl lg:text-4xl font-bold mb-4">
             Table of Contents
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             A comprehensive guide to agentic patterns organized into four progressive parts, 
             covering 21 essential chapters with practical code examples and implementations.
           </p>
@@ -215,10 +215,10 @@ export default function TableOfContents() {
                         <IconComponent size={28} />
                       </div>
                       <div>
-                        <h2 className={`text-2xl font-bold ${colorClasses.title} mb-2`}>
+                        <h2 className={`text-xl font-bold ${colorClasses.title} mb-2`}>
                           {part.title}
                         </h2>
-                        <p className="text-gray-600 mb-3">{part.description}</p>
+                        <p className="text-sm text-gray-600 mb-3">{part.description}</p>
                         <div className="flex items-center gap-4 text-sm text-gray-500">
                           <span>{part.chapters.length} chapters</span>
                           <span>•</span>
@@ -256,7 +256,7 @@ export default function TableOfContents() {
                                   {chapter.number}
                                 </span>
                                 <div className="flex-1">
-                                  <h3 className="font-bold text-gray-900 group-hover:text-primary-600 transition-colors mb-1">
+                                  <h3 className="text-base font-bold text-gray-900 group-hover:text-primary-600 transition-colors mb-1">
                                     {chapter.title}
                                   </h3>
                                   <p className="text-gray-600 text-sm mb-3">{chapter.description}</p>
@@ -295,45 +295,45 @@ export default function TableOfContents() {
         </div>
 
         {/* Appendix Section */}
-        <div className="mt-12 bg-gray-50 border border-gray-200 rounded-xl p-8">
-          <div className="flex items-start gap-4 mb-6">
-            <div className="w-12 h-12 bg-gray-100 text-gray-600 rounded-lg flex items-center justify-center">
-              <FileText size={24} />
+        <div className="mt-12 bg-gray-50 border border-gray-200 rounded-xl p-6">
+          <div className="flex items-start gap-3 mb-6">
+            <div className="w-10 h-10 bg-gray-100 text-gray-600 rounded-lg flex items-center justify-center">
+              <FileText size={20} />
             </div>
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-2">
+              <h2 className="text-xl font-bold text-gray-800 mb-2">
                 Appendix – Extended Topics and Practical Resources
               </h2>
-              <p className="text-gray-600">
+              <p className="text-sm text-gray-600">
                 Additional resources, advanced techniques, and practical implementation guides.
               </p>
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-3">
             {appendices.map((appendix, index) => (
               <Link
                 key={appendix.id}
                 href={`/appendix/${appendix.id}`}
-                className="group bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:border-gray-300"
+                className="group bg-white border border-gray-200 rounded-lg p-3 hover:shadow-md transition-all duration-200 hover:border-gray-300"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <span className="w-8 h-8 bg-gray-100 text-gray-600 rounded-full flex items-center justify-center text-sm font-semibold">
+                    <span className="w-7 h-7 bg-gray-100 text-gray-600 rounded-full flex items-center justify-center text-xs font-semibold">
                       {String.fromCharCode(65 + index)}
                     </span>
                     <div>
-                      <h3 className="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
+                      <h3 className="text-sm font-semibold text-gray-900 group-hover:text-primary-600 transition-colors leading-tight">
                         {appendix.title}
                       </h3>
                       {appendix.onlineOnly && (
-                        <span className="text-xs text-primary-600 bg-primary-50 px-2 py-1 rounded-full mt-1 inline-block">
+                        <span className="text-xs text-primary-600 bg-primary-50 px-2 py-0.5 rounded-full mt-1 inline-block">
                           online only
                         </span>
                       )}
                     </div>
                   </div>
-                  <ChevronRight size={16} className="text-gray-400 group-hover:text-primary-600 transition-colors" />
+                  <ChevronRight size={14} className="text-gray-400 group-hover:text-primary-600 transition-colors" />
                 </div>
               </Link>
             ))}
